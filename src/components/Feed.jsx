@@ -2,17 +2,10 @@ import React, { Component } from "react";
 import { Jumbotron, Button } from "react-bootstrap";
 
 class Feed extends Component {
-  state = {};
-
-  changeColor = () => {
-    this.setState({ color: 1 + 1 });
-  };
   render() {
     return (
       <Jumbotron className="bg-dark text-white">
-        <h1>Hello, {this.state.color} Malon!</h1>
-
-        {/* Comment */}
+        <h1>Hello, Malon!</h1>
         <blockquote className="bloackqoute mb-0">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
@@ -23,7 +16,7 @@ class Feed extends Component {
           <footer className="blockqoute-footer">Lorem Ipsum</footer>
         </blockquote>
         <p>
-          <Button onClick={this.changeColor} variant="primary">
+          <Button onClick={this.increment} variant="primary">
             Learn more
           </Button>
         </p>

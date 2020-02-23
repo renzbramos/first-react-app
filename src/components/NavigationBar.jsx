@@ -3,7 +3,6 @@ import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 class NavigationBar extends Component {
-  state = {};
   render() {
     return (
       <Navbar bg="dark" variant="dark">
@@ -13,7 +12,6 @@ class NavigationBar extends Component {
             REACT
           </h1>
         </Link>
-
         <Nav className="mr-auto">
           <Link className="nav-link">Home</Link>
           <Link to={"persons"} className="nav-link">
