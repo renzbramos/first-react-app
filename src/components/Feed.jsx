@@ -12,6 +12,7 @@ class Feed extends Component {
       <Jumbotron className="bg-dark text-white">
         <h1>Hello, {this.state.color} Malon!</h1>
 
+        {/* Comment */}
         <blockquote className="bloackqoute mb-0">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
